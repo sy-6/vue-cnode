@@ -10,6 +10,11 @@ export default {
   data() {
     return {};
   },
+  created(){
+       const res =  this.$axios.get(`https://cnodejs.org/api/v1/topics`);
+       console.log(res)
+  }
+  ,
   methods:{
       returnHome(){
         this.$router.replace('/')

@@ -20,7 +20,7 @@ const routes = [
     component:() =>import('../views/gjh.vue')
   },
   {
-    path: '/',
+    path: '/sy',
     component:() =>import('../views/sy.vue')
 
   },
