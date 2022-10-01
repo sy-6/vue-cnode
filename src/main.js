@@ -12,6 +12,7 @@ Vue.use(TableColumn)
 
 Vue.config.productionTip = false
 
+
 new Vue({
   router,
   store,
