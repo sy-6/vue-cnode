@@ -3,7 +3,7 @@
     <Pane1>
       <template #header>
         <div class="nav">
-          <router-link to="/">首页</router-link>
+          <router-link to="/">首页1111</router-link>
           <router-link to="/good">精华</router-link>
           <router-link to="/share">分享</router-link>
           <router-link to="/ask">问答</router-link>
