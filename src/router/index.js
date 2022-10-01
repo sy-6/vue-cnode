@@ -5,13 +5,24 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-const routes = [{
+const routes = [
+ 
+  {
     path: '/login',
     component: () => import('../views/Login.vue')
   },
   {
     path: '/',
     component: Home
+  },
+  {
+    path: '/gjh',
+    component:() =>import('../views/gjh.vue')
+  },
+  {
+    path: '/',
+    component:() =>import('../views/sy.vue')
+
   },
   {
     path: '/:tab',
@@ -26,7 +37,8 @@ const routes = [{
     path:'/user/:loginname',
     name:'user',
     component:() =>import('../views/User.vue')
-  }
+  },
+
 
 ]
 

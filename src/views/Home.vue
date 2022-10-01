@@ -9,6 +9,9 @@
           <router-link to="/ask">问答</router-link>
           <router-link to="/job">招聘</router-link>
           <router-link to="/dev">客户端测试</router-link>
+          <router-link to="/gjh">gjh</router-link>
+          <router-link to="/sy">sy</router-link>
+
         </div>
       </template>
       <template #content>
@@ -28,7 +31,7 @@
                 <span class="reply_count">{{ post.reply_count }}</span
                 >/<span class="visit_count">{{ post.visit_count }}</span>
               </span>
-              <span
+                <span
                 v-if="!tab || post.top || post.good || tab === 'all'"
                 :class="post.top || post.good ? 'active-tab' : 'tab'"
                 >{{ post | getPostChineseTab }}</span
