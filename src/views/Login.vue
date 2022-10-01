@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      token: "21fe023f-ef69-4e05-9150-426254895ca1",
+      token: "388f2ebf-8017-4ab9-9e13-3bc64099af18",
     };
   },
   methods: {
